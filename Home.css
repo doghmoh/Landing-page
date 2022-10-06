@@ -1,0 +1,52 @@
+* {
+    font-family: Poppins;
+}
+
+button#poper {
+    border: 1px solid white;
+    margin-right: 5px;
+    display: none;
+}
+
+div.navbar-nav a {
+    margin-right: 30px;
+}
+
+section#section1 {
+    height: 400px;
+}
+
+section#section2 {
+    height: 400px;
+}
+
+@media (max-width: 600px) {
+    div.navbar-nav {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        display: block !important;
+        top: 8%;
+        left: -100%;
+        z-index: 3;
+        opacity: 0.97;
+    }
+    div.navbar-nav a {
+        width: 100%;
+        margin: 2px 0;
+        padding: 15px 0;
+    }
+    button#poper {
+        display: unset;
+    }
+    div.navbar-nav {
+        position: fixed;
+        width: 100%;
+        background-color: #0d6efd;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        font-size: 3vw;
+        transition: all 0.5s;
+    }
+}
